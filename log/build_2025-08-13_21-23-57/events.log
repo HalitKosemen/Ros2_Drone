@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (led_robot) JobQueued: {'identifier': 'led_robot', 'dependencies': OrderedDict()}
+[0.000442] (led_robot) JobStarted: {'identifier': 'led_robot'}
+[0.006759] (led_robot) JobProgress: {'identifier': 'led_robot', 'progress': 'cmake'}
+[0.008411] (led_robot) JobProgress: {'identifier': 'led_robot', 'progress': 'build'}
+[0.008441] (led_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/halit/ros2_project/build/led_robot', '--', '-j12', '-l12'], 'cwd': '/home/halit/ros2_project/build/led_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'halit'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/halit'), ('OLDPWD', '/home/halit'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1697'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/halit/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'halit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'halit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/halit:@/tmp/.ICE-unix/1668,unix/halit:/tmp/.ICE-unix/1668'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93d8c64f_77fa_4621_b618_13cbf2075ba0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VYV5A3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/halit/ros2_ws/install/color_tracker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/halit/ros2_project/build/led_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/halit/ros2_ws/install/color_tracker:/opt/ros/humble')]), 'shell': False}
+[0.029721] (led_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099916] (-) TimerEvent: {}
+[0.101682] (led_robot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.106767] (led_robot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.123681] (led_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.125095] (led_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.128605] (led_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.134599] (led_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.141734] (led_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.160314] (led_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.161086] (led_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200013] (-) TimerEvent: {}
+[0.220948] (led_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.250208] (led_robot) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.267314] (led_robot) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.272602] (led_robot) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.287558] (led_robot) StdoutLine: {'line': b'-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)\n'}
+[0.287690] (led_robot) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[0.290128] (led_robot) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.290909] (led_robot) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.300148] (-) TimerEvent: {}
+[0.343836] (led_robot) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.362310] (led_robot) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.378591] (led_robot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.379269] (led_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.382003] (led_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.382712] (led_robot) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.386229] (led_robot) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.386312] (led_robot) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.392446] (led_robot) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.392529] (led_robot) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.392573] (led_robot) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.392620] (led_robot) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.392686] (led_robot) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.392781] (led_robot) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.392817] (led_robot) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.392851] (led_robot) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.392886] (led_robot) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.392920] (led_robot) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.392955] (led_robot) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.393003] (led_robot) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.400222] (-) TimerEvent: {}
+[0.454543] (led_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.454744] (led_robot) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.454935] (led_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.466071] (led_robot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.472312] (led_robot) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.475262] (led_robot) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.493198] (led_robot) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.500317] (-) TimerEvent: {}
+[0.516210] (led_robot) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.523018] (led_robot) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.541700] (led_robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.541864] (led_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.553100] (led_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.557285] (led_robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.557430] (led_robot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.557779] (led_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.557881] (led_robot) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.557924] (led_robot) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.564828] (led_robot) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.564924] (led_robot) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[0.565174] (led_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.565421] (led_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.566153] (led_robot) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[0.566294] (led_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.588435] (led_robot) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.595369] (led_robot) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[0.600405] (-) TimerEvent: {}
+[0.616438] (led_robot) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[0.623597] (led_robot) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[0.642902] (led_robot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.643078] (led_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.643245] (led_robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.644238] (led_robot) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[0.645477] (led_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700598] (-) TimerEvent: {}
+[0.700775] (led_robot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.700864] (led_robot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.700902] (led_robot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.701257] (led_robot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.701930] (led_robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.702355] (led_robot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.704358] (led_robot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.704424] (led_robot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.704851] (led_robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.705673] (led_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.710961] (led_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[0.712982] (led_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/halit/ros2_project/build/led_robot\n'}
+[0.732582] (led_robot) CommandEnded: {'returncode': 0}
+[0.733142] (led_robot) JobProgress: {'identifier': 'led_robot', 'progress': 'install'}
+[0.738818] (led_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/halit/ros2_project/build/led_robot'], 'cwd': '/home/halit/ros2_project/build/led_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'halit'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/halit'), ('OLDPWD', '/home/halit'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1697'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/halit/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'halit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'halit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/halit:@/tmp/.ICE-unix/1668,unix/halit:/tmp/.ICE-unix/1668'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93d8c64f_77fa_4621_b618_13cbf2075ba0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VYV5A3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/halit/ros2_ws/install/color_tracker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/halit/ros2_project/build/led_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/halit/ros2_ws/install/color_tracker:/opt/ros/humble')]), 'shell': False}
+[0.743789] (led_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.744113] (led_robot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.744684] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/launch/launch_sim.launch.py\n'}
+[0.744858] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/launch/rsp.launch.py\n'}
+[0.745106] (led_robot) StdoutLine: {'line': b'-- Symlinking: /home/halit/ros2_project/install/led_robot/share/led_robot/description/drone_urdf_z.csv\n'}
+[0.750513] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/description/gazebo_control.xacro\n'}
+[0.750617] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/description/inertial_macros.xacro\n'}
+[0.750800] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/description/robot.urdf.xacro\n'}
+[0.750867] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/description/robot_core.urdf\n'}
+[0.750930] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/description/robot_gps.xacro\n'}
+[0.751106] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/description/robot_imu.xacro\n'}
+[0.751474] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/config/joint_name_drone.yaml\n'}
+[0.751811] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/meshes/base_link.STL\n'}
+[0.751897] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/meshes/left_motor_bc_link.STL\n'}
+[0.751953] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/meshes/left_motor_fr_link.STL\n'}
+[0.752008] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/meshes/right_motor_bc_link.STL\n'}
+[0.752140] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/meshes/right_motor_fr_link.STL\n'}
+[0.752538] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/gazebo_world/world.world\n'}
+[0.752924] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/ament_index/resource_index/package_run_dependencies/led_robot\n'}
+[0.753008] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/ament_index/resource_index/parent_prefix_path/led_robot\n'}
+[0.753301] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/environment/ament_prefix_path.sh\n'}
+[0.753468] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/environment/ament_prefix_path.dsv\n'}
+[0.753624] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/environment/path.sh\n'}
+[0.753806] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/environment/path.dsv\n'}
+[0.753882] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/local_setup.bash\n'}
+[0.753933] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/local_setup.sh\n'}
+[0.754045] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/local_setup.zsh\n'}
+[0.754232] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/local_setup.dsv\n'}
+[0.754288] (led_robot) StdoutLine: {'line': b'-- Symlinking: /home/halit/ros2_project/install/led_robot/share/led_robot/package.dsv\n'}
+[0.759628] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/ament_index/resource_index/packages/led_robot\n'}
+[0.759825] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/cmake/led_robotConfig.cmake\n'}
+[0.759990] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/cmake/led_robotConfig-version.cmake\n'}
+[0.760054] (led_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/halit/ros2_project/install/led_robot/share/led_robot/package.xml\n'}
+[0.761143] (led_robot) CommandEnded: {'returncode': 0}
+[0.773924] (led_robot) JobEnded: {'identifier': 'led_robot', 'rc': 0}
+[0.774295] (-) EventReactorShutdown: {}

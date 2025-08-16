@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="drone_urdf_z">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="3.06009585032685E-09 -6.98617915045885E-07 -0.0132894362824459"
+        rpy="0 0 0" />
+      <mass
+        value="0.503369314822393" />
+      <inertia
+        ixx="0.000216140414743199"
+        ixy="-1.2896881173319E-18"
+        ixz="-1.79701856895062E-10"
+        iyy="0.000216137848027996"
+        iyz="5.82200762052163E-18"
+        izz="0.00042836762507931" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find led_robot)/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find led_robot)/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="left_motor_fr_link">
+    <inertial>
+      <origin
+        xyz="-5.70515856779252E-14 -7.5842110369706E-14 0.0104916649318135"
+        rpy="0 0 0" />
+      <mass
+        value="0.000871286443520719" />
+      <inertia
+        ixx="4.65619987363611E-07"
+        ixy="9.1768039707417E-08"
+        ixz="-2.82039906780116E-20"
+        iyy="2.90914434114201E-08"
+        iyz="9.36927487503767E-21"
+        izz="4.91478198463029E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find led_robot)/meshes/left_motor_fr_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find led_robot)/meshes/left_motor_fr_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_motor_fr_axis"
+    type="continuous">
+    <origin
+      xyz="0.084851 -0.084851 -0.005"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_motor_fr_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      effort="100"
+      velocity="100" />
+  </joint>
+  <link
+    name="left_motor_bc_link">
+    <inertial>
+      <origin
+        xyz="3.90520948911899E-14 8.58757509547559E-14 0.0118816649318137"
+        rpy="0 0 0" />
+      <mass
+        value="0.000871286443520718" />
+      <inertia
+        ixx="4.08512431257603E-07"
+        ixy="1.73462325774114E-07"
+        ixz="3.24355924985854E-20"
+        iyy="8.61989995174282E-08"
+        iyz="-1.02085099392834E-20"
+        izz="4.91478198463029E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find led_robot)/meshes/left_motor_bc_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find led_robot)/meshes/left_motor_bc_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_motor_bc_axis"
+    type="continuous">
+    <origin
+      xyz="-0.084851 -0.084851 -0.00639"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_motor_bc_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      effort="100"
+      velocity="100" />
+  </joint>
+  <link
+    name="right_motor_fr_link">
+    <inertial>
+      <origin
+        xyz="1.11111102905903E-06 -9.99938270166423E-05 0.0118816649318137"
+        rpy="0 0 0" />
+      <mass
+        value="0.000871286443520717" />
+      <inertia
+        ixx="4.62002509568267E-07"
+        ixy="-9.99370766078447E-08"
+        ixz="-2.2259365098802E-20"
+        iyy="3.2708921206762E-08"
+        iyz="1.86406424088621E-20"
+        izz="4.91478198463027E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find led_robot)/meshes/right_motor_fr_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find led_robot)/meshes/right_motor_fr_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_motor_fr_axis"
+    type="continuous">
+    <origin
+      xyz="0.084851 0.084851 -0.00639"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_motor_fr_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      effort="100"
+      velocity="100" />
+  </joint>
+  <link
+    name="right_motor_bc_link">
+    <inertial>
+      <origin
+        xyz="1.11111103084927E-06 -9.99938270212081E-05 0.0118816649318138"
+        rpy="0 0 0" />
+      <mass
+        value="0.00087128644352072" />
+      <inertia
+        ixx="4.71222599406516E-07"
+        ixy="-7.70991814004587E-08"
+        ixz="-2.31831028027066E-20"
+        iyy="2.3488831368516E-08"
+        iyz="1.75711860360424E-20"
+        izz="4.9147819846303E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find led_robot)/meshes/right_motor_bc_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find led_robot)/meshes/right_motor_bc_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_motor_bc_axis"
+    type="continuous">
+    <origin
+      xyz="-0.084851 0.084851 -0.00639"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_motor_bc_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      effort="100"
+      velocity="100" />
+  </joint>
+</robot>

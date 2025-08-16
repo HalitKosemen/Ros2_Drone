@@ -1,0 +1,1 @@
+/home/halit/ros2_project/build/led_robot/ament_cmake_environment_hooks/local_setup.bash

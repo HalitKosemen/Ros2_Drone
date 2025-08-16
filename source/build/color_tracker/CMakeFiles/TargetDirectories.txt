@@ -1,0 +1,9 @@
+/home/halit/ros2_project/source/build/color_tracker/CMakeFiles/uninstall.dir
+/home/halit/ros2_project/source/build/color_tracker/CMakeFiles/color_tracker_uninstall.dir
+/home/halit/ros2_project/source/build/color_tracker/CMakeFiles/test.dir
+/home/halit/ros2_project/source/build/color_tracker/CMakeFiles/edit_cache.dir
+/home/halit/ros2_project/source/build/color_tracker/CMakeFiles/rebuild_cache.dir
+/home/halit/ros2_project/source/build/color_tracker/CMakeFiles/list_install_components.dir
+/home/halit/ros2_project/source/build/color_tracker/CMakeFiles/install.dir
+/home/halit/ros2_project/source/build/color_tracker/CMakeFiles/install/local.dir
+/home/halit/ros2_project/source/build/color_tracker/CMakeFiles/install/strip.dir

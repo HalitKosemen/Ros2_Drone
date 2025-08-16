@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="quadrotor">
+
+  <!-- Gazebo Plugins -->
+  <gazebo>
+
+    <!-- Odometry Publisher Plugin -->
+    <plugin name="quadrotor_odometry" filename="gz-sim-imu-system">
+      <!-- Output odometry -->
+      <frame_id>odom</frame_id>
+      <child_frame_id>base_link</child_frame_id>
+      <odom_topic>odom</odom_topic>
+      <tf_topic>tf</tf_topic>
+      <odom_publisher_frequency>50</odom_publisher_frequency>
+
+      <!-- Optional: IMU + pose settings -->
+      <imu_topic>imu/data</imu_topic>
+      <imu_frame>base_link</imu_frame>
+    </plugin>
+
+    <!-- Joint State Publisher for rotors -->
+    <plugin filename="gz-sim-joint-state-publisher-system"
+            name="gz::sim::systems::JointStatePublisher">
+      <topic>joint_states</topic>
+
+      <!-- Drone rotors -->
+      <joint_name>rotor_1_joint</joint_name>
+      <joint_name>rotor_2_joint</joint_name>
+      <joint_name>rotor_3_joint</joint_name>
+      <joint_name>rotor_4_joint</joint_name>
+    </plugin>
+
+  </gazebo>
+
+</robot>

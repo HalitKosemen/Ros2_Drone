@@ -1,0 +1,107 @@
+[0.008s] Invoking command in '/home/halit/ros2_project/source/build/led_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/halit/ros2_project/source/build/led_robot -- -j12 -l12
+[0.028s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.106s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.123s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.124s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.128s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.165s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.166s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.228s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.259s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.278s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.284s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[0.300s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.300s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.302s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.303s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.363s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.383s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.401s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.402s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.405s] -- Searching for dependencies of ignition-math6
+[0.406s] -- Looking for OGRE...
+[0.409s] -- Found Ogre Ghadamon (1.9.0)
+[0.409s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.416s] -- Looking for OGRE_Paging...
+[0.416s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.416s] -- Looking for OGRE_Terrain...
+[0.416s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.416s] -- Looking for OGRE_Property...
+[0.416s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.416s] -- Looking for OGRE_RTShaderSystem...
+[0.416s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.416s] -- Looking for OGRE_Volume...
+[0.416s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.416s] -- Looking for OGRE_Overlay...
+[0.416s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.486s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.487s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.487s] -- Searching for dependencies of ignition-transport8
+[0.499s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.506s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.509s] -- Checking for module 'libzmq >= 4'
+[0.526s] --   Found libzmq , version 4.3.4
+[0.550s] -- Checking for module 'uuid'
+[0.557s] --   Found uuid, version 2.37.2
+[0.575s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.575s] -- Searching for dependencies of ignition-msgs5
+[0.586s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.591s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.591s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.591s] -- Searching for dependencies of ignition-common3
+[0.591s] -- Looking for dlfcn.h - found
+[0.591s] -- Looking for libdl - found
+[0.598s] -- Searching for <ignition-common3> component [graphics]
+[0.598s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.599s] -- Searching for dependencies of ignition-common3-graphics
+[0.599s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.599s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.600s] -- Searching for dependencies of ignition-fuel_tools4
+[0.622s] -- Checking for module 'jsoncpp'
+[0.630s] --   Found jsoncpp, version 1.9.5
+[0.651s] -- Checking for module 'libzip'
+[0.658s] --   Found libzip, version 1.7.3
+[0.677s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.677s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.677s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.678s] -- Gazebo version: 11.10
+[0.679s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.736s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.736s] -- Configured cppcheck include dirs: 
+[0.736s] -- Configured cppcheck exclude dirs and/or files: 
+[0.736s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.737s] -- Added test 'lint_cmake' to check CMake code style
+[0.737s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.739s] -- Added test 'uncrustify' to check C / C++ code style
+[0.739s] -- Configured uncrustify additional arguments: 
+[0.740s] -- Added test 'xmllint' to check XML markup files
+[0.740s] -- Configuring done
+[0.745s] -- Generating done
+[0.747s] -- Build files have been written to: /home/halit/ros2_project/source/build/led_robot
+[0.766s] Invoked command in '/home/halit/ros2_project/source/build/led_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/halit/ros2_project/source/build/led_robot -- -j12 -l12
+[0.773s] Invoking command in '/home/halit/ros2_project/source/build/led_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/halit/ros2_project/source/build/led_robot
+[0.777s] -- Install configuration: ""
+[0.777s] -- Execute custom install script
+[0.777s] -- Symlinking: /home/halit/ros2_project/source/install/led_robot/share/led_robot/launch/rsp.launch.py
+[0.783s] -- Symlinking: /home/halit/ros2_project/source/install/led_robot/share/led_robot/description/inertial_macros.xacro
+[0.788s] -- Symlinking: /home/halit/ros2_project/source/install/led_robot/share/led_robot/description/robot_core.urdf
+[0.793s] -- Symlinking: /home/halit/ros2_project/source/install/led_robot/share/led_robot/config/joint_name_drone.yaml
+[0.798s] -- Up-to-date symlink: /home/halit/ros2_project/source/install/led_robot/share/ament_index/resource_index/package_run_dependencies/led_robot
+[0.798s] -- Up-to-date symlink: /home/halit/ros2_project/source/install/led_robot/share/ament_index/resource_index/parent_prefix_path/led_robot
+[0.798s] -- Up-to-date symlink: /home/halit/ros2_project/source/install/led_robot/share/led_robot/environment/ament_prefix_path.sh
+[0.798s] -- Up-to-date symlink: /home/halit/ros2_project/source/install/led_robot/share/led_robot/environment/ament_prefix_path.dsv
+[0.798s] -- Up-to-date symlink: /home/halit/ros2_project/source/install/led_robot/share/led_robot/environment/path.sh
+[0.799s] -- Up-to-date symlink: /home/halit/ros2_project/source/install/led_robot/share/led_robot/environment/path.dsv
+[0.799s] -- Up-to-date symlink: /home/halit/ros2_project/source/install/led_robot/share/led_robot/local_setup.bash
+[0.799s] -- Up-to-date symlink: /home/halit/ros2_project/source/install/led_robot/share/led_robot/local_setup.sh
+[0.799s] -- Up-to-date symlink: /home/halit/ros2_project/source/install/led_robot/share/led_robot/local_setup.zsh
+[0.799s] -- Up-to-date symlink: /home/halit/ros2_project/source/install/led_robot/share/led_robot/local_setup.dsv
+[0.799s] -- Symlinking: /home/halit/ros2_project/source/install/led_robot/share/led_robot/package.dsv
+[0.804s] -- Up-to-date symlink: /home/halit/ros2_project/source/install/led_robot/share/ament_index/resource_index/packages/led_robot
+[0.804s] -- Up-to-date symlink: /home/halit/ros2_project/source/install/led_robot/share/led_robot/cmake/led_robotConfig.cmake
+[0.804s] -- Up-to-date symlink: /home/halit/ros2_project/source/install/led_robot/share/led_robot/cmake/led_robotConfig-version.cmake
+[0.804s] -- Up-to-date symlink: /home/halit/ros2_project/source/install/led_robot/share/led_robot/package.xml
+[0.806s] Invoked command in '/home/halit/ros2_project/source/build/led_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/halit/ros2_project/source/build/led_robot

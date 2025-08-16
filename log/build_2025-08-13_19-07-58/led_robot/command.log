@@ -1,0 +1,6 @@
+Invoking command in '/home/halit/ros2_project/build/led_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/halit/ros2_project/source/led_robot -DCMAKE_INSTALL_PREFIX=/home/halit/ros2_project/install/led_robot
+Invoked command in '/home/halit/ros2_project/build/led_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/halit/ros2_project/source/led_robot -DCMAKE_INSTALL_PREFIX=/home/halit/ros2_project/install/led_robot
+Invoking command in '/home/halit/ros2_project/build/led_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/halit/ros2_project/build/led_robot -- -j12 -l12
+Invoked command in '/home/halit/ros2_project/build/led_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/halit/ros2_project/build/led_robot -- -j12 -l12
+Invoking command in '/home/halit/ros2_project/build/led_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/halit/ros2_project/build/led_robot
+Invoked command in '/home/halit/ros2_project/build/led_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/halit/ros2_project/build/led_robot

@@ -1,0 +1,4 @@
+source;share/color_tracker/local_setup.bash
+source;share/color_tracker/local_setup.dsv
+source;share/color_tracker/local_setup.sh
+source;share/color_tracker/local_setup.zsh
